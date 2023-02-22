@@ -51,7 +51,7 @@ ___________________  _________     _____                .__  __
 $Logo;
 
 $Host.UI.RawUI.WindowTitle = "!! TGS Monitor !! <Last KRBTGT Reset: $KrbTgtResetDate>"
-Write-Host "`n[x] Last KRBTGT Reset: $KrbTgtResetDate." -ForegroundColor Cyan;
+Write-Host "`n[x] Last KRBTGT Reset: $KrbTgtResetDate" -ForegroundColor Cyan;
 
 if ($LogAllTickets)
     {
